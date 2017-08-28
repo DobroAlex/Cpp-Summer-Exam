@@ -14,7 +14,7 @@ using namespace std;
 /*
 *
 */
-class Vector { //описываю double - вектор
+class Vector { //описываю double - вектор, если это не_понятно, то см. классы и перегрузку операторов
 private:
 	double * ptr;
 	int size;
