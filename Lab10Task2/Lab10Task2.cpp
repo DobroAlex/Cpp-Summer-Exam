@@ -76,7 +76,7 @@ public:
 		}
 		cout << endl;
 	}
-	int getSize(void) { //геттер - публичная функция, возвращающая приватный член 
+	int getSize(void) const { //геттер - публичная функция, возвращающая приватный член 
 		return this->size;
 	}
 };
